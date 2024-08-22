@@ -1,0 +1,19 @@
+1. sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
+
+2. git clone https://github.com/xmrig/xmrig.git
+
+3. cd xmrig
+
+4. mkdir build
+
+5. cd build ; cmake ..
+
+6. make -j$(nproc)
+
+./xmrig -o pool.hashvault.pro:3333 -u 48UDaPd7fH18BjuqcnahR3LcguWRKZCADC2CfuuQeqGU92NG6E381Wd6FZsgVUTjN9XYRwPxxKVio4cSphYzjV6R4nqRf9S -p worker -k --tls
+
+./xmrig -o pool.hashvault.pro:3333 -u 87M7RS3vKmSNuft2fqPrjN7jJV8TYuW5W9s1F1rZyJ9Pj9CZKt9jkuxW1J9KAtFhwEGsRCYTizvM3K9r1Ed4gyFBFXfvREg -p worker -k --tls
+
+87M7RS3vKmSNuft2fqPrjN7jJV8TYuW5W9s1F1rZyJ9Pj9CZKt9jkuxW1J9KAtFhwEGsRCYTizvM3K9r1Ed4gyFBFXfvREg
+
+youkgouj@gmail.com/GOOGLE SHELL RUNNING
